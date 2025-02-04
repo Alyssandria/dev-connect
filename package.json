@@ -1,0 +1,25 @@
+{
+  "name": "dev-connect",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon backend/server.js",
+    "init-db": "node backend/db.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alyssandria/dev-connect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Alyssandria/dev-connect/issues"
+  },
+  "homepage": "https://github.com/Alyssandria/dev-connect#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

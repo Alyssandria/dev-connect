@@ -1,0 +1,5 @@
+# NODE MODULE
+node_modules/
+
+# EDITOR
+.vscode
