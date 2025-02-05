@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primary-green: #25caac;
+  --primary-black: #434343;
+
+  /* UTILS */
+  --util-white: #e4e4e4;
+}
+
+fieldset {
+  border: none;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.button {
+  background: var(--primary-green);
+  border: none;
+  color: white;
+  padding: 0.5em 3em;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 1em;
+}
