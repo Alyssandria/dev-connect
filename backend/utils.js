@@ -46,4 +46,6 @@ export const serveFiles = (url, res) => {
       res.end(content);
     }
   });
+
+  return;
 };
